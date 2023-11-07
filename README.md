@@ -37,12 +37,12 @@ Next we will edit the interface to match our system, in this case it is eth0:  <
 <img src="https://i.imgur.com/Dh86zWI.png" height="80%" width="80%" alt="Edit interface in config file"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The rule set will then need to be updated so we have updated rules for Suricata to use to monitor the network:  <br/>
+<img src="https://i.imgur.com/YMIuuYE.png" height="80%" width="80%" alt="Update Suricata Rules"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Since updating the config and rules we will test the configuration and once successfull will then start the Suricata service:  <br/>
+<img src="https://i.imgur.com/XDrkJK6.png" height="80%" width="80%" alt="Test and start Suricata"/>
 </p>
 
 <!--
