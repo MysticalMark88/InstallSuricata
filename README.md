@@ -8,7 +8,7 @@ In this project we will install Suricata IDS to monitor an existing Nextcloud se
 
 <h2>Environments Used: </h2>
 
-- <b>Ubuntu 20.04 LTS, running on a DigitalOcean Droplet connected to over SSH from a local Manjaro system</b>
+- <b>Ubuntu 20.04 LTS, running on a DigitalOcean Droplet connected over SSH from a local Manjaro system</b>
 
 <h2>Installation walk-through:</h2>
 
