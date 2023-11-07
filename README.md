@@ -13,12 +13,12 @@ In this project we will install Suricata IDS to monitor an existing Nextcloud se
 <h2>Installation walk-through:</h2>
 
 <p align="center">
-AFter logging in to the server we will need to add the repository for Suricata: <br/>
+After logging in to the server we will need to add the repository for Suricata: <br/>
 <img src="https://i.imgur.com/9QS6kl7.png" height="80%" width="80%" alt="Add Repo"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+We will need to run apt-update and then install suricata:  <br/>
+<img src="https://i.imgur.com/FN4hiJQ.png" height="80%" width="80%" alt="Update and Install"/>
 <br />
 <br />
 Enter the number of passes: <br/>
