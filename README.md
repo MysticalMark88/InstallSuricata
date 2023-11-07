@@ -43,6 +43,22 @@ The rule set will then need to be updated so we have updated rules for Suricata 
 <br />
 Since updating the config and rules we will test the configuration and once successfull will then start the Suricata service:  <br/>
 <img src="https://i.imgur.com/XDrkJK6.png" height="80%" width="80%" alt="Test and start Suricata"/>
+<br />
+<br />
+We will then check the status of the service to make sure it has started and running successfully:  <br/>
+<img src="https://i.imgur.com/97rtZ9A.png" height="80%" width="80%" alt="Check status of Suricata"/>
+<br />
+<br />
+We will also check the Suricata log file to confirm that it has successfully started:  <br/>
+<img src="https://i.imgur.com/iWLsXPT.png" height="80%" width="80%" alt="Check status of Suricata"/>
+<br />
+<br />
+Next we will want to test Suricata to make sure it is detecting malicious traffic:  <br/>
+<img src="https://i.imgur.com/zf1B8tF.png" height="80%" width="80%" alt="Test Suricata"/>
+<br />
+<br />
+we will now check Suricata's fast.log file to see if it detected the malicious test, we can see that it was successfull. Suricata is installed and running successfully!  <br/>
+<img src="https://i.imgur.com/mXPec1E.png" height="80%" width="80%" alt="Test Suricata"/>
 </p>
 
 <!--
