@@ -21,16 +21,20 @@ We will need to run apt-update and then install suricata:  <br/>
 <img src="https://i.imgur.com/FN4hiJQ.png" height="80%" width="80%" alt="Update and Install"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once the install is complete we will enable Suricata using systemctl then stop the service temporarily so we can configure it: <br/>
+<img src="https://i.imgur.com/uynGLFe.png" height="80%" width="80%" alt="Enable Suricata"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next we will check the default interface we want to monitor on to update the config file. Note the interface is eth0:  <br/>
+<img src="https://i.imgur.com/FfyYKfA.png" height="80%" width="80%" alt="Check Default Interface"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+We will then open the configuration file with nano to edit the configuration:  <br/>
+<img src="https://i.imgur.com/0gW5qQ5.png" height="80%" width="80%" alt="Open Config File"/>
+<br />
+<br />
+Next we will edit the interface to match our system, in this case it is eth0:  <br/>
+<img src="https://i.imgur.com/Dh86zWI.png" height="80%" width="80%" alt="Edit interface in config file"/>
 <br />
 <br />
 Sanitization complete:  <br/>
